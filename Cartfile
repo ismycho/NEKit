@@ -2,6 +2,6 @@ github "ismycho/myCocoaAsyncSocket" ~> 1.0.4
 github "CocoaLumberjack/CocoaLumberjack" ~> 3.5.2
 github "ismycho/MMDB" "0.5.6"
 github "zhuhaow/Sodium-framework" "v1.0.10.1"
-github "behrang/YamlSwift" "3.4.3"
+github "ismycho/YamlSwift" "1.0.0"
 github "ismycho/mytun2socks" ~> 1.0.0
 github "zhuhaow/Resolver" ~> 0.2.0
