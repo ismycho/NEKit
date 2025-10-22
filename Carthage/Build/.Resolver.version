@@ -1,0 +1,12 @@
+{
+  "Mac" : [
+    {
+      "container" : "Resolver.xcframework",
+      "hash" : "3adf7ce74ab916284e119504af7676cc7ffddce22812e0409a8cf1ba00e8e470",
+      "name" : "Resolver",
+      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "commitish" : "0.2.0"
+}

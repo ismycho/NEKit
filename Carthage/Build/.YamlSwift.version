@@ -1,0 +1,12 @@
+{
+  "Mac" : [
+    {
+      "name" : "Yaml",
+      "hash" : "37623702cf7a1ae97d25fdd2adea4fde55c46149b7184be4131666d311efd7a1",
+      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
+      "identifier" : "macos-arm64_x86_64",
+      "container" : "Yaml.xcframework"
+    }
+  ],
+  "commitish" : "1.0.1"
+}

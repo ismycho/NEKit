@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.0.4",
+  "Mac" : [
+    {
+      "hash" : "a712468dea9be747a2cbaddd568111030bb027ddf8c6c492cd23006ddf99fe3c",
+      "container" : "CocoaAsyncSocket.xcframework",
+      "name" : "CocoaAsyncSocket",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pc/Library/Caches/org.carthage.CarthageKit/DerivedData/26.0.1_17A400/Sodium-framework/v1.0.10.1/Build/Intermediates.noindex/ArchiveIntermediates/Sodium-macOS/BuildProductsPath/Release/Sodium.framework/Sodium'
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _SodiumVersionString, symObjAddr: 0x0, symBinAddr: 0x368, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _SodiumVersionNumber, symObjAddr: 0x28, symBinAddr: 0x390, symSize: 0x0 }
+...

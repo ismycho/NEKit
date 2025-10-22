@@ -1,0 +1,11 @@
+{
+  "Mac" : [
+    {
+      "hash" : "08ad1683bcc824b74631a672c7c5f30acc4c18276e78eb657ec67d171031a6fa",
+      "identifier" : "macos-arm64_x86_64",
+      "container" : "Sodium.xcframework",
+      "name" : "Sodium"
+    }
+  ],
+  "commitish" : "v1.0.10.1"
+}
