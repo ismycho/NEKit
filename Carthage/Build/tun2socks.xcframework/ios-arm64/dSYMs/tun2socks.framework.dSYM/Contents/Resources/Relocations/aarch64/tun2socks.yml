@@ -4,7 +4,7 @@ binary-path:     '/Users/pc/Library/Caches/org.carthage.CarthageKit/DerivedData/
 relocations:
   - { offset: 0x6E616, size: 0x8, addend: 0x0, symName: _tun2socksVersionString, symObjAddr: 0x0, symBinAddr: 0xA090, symSize: 0x0 }
   - { offset: 0x6E64D, size: 0x8, addend: 0x0, symName: _tun2socksVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA0C0, symSize: 0x0 }
-  - { offset: 0x6E6B3, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC5stackACvpZ', symObjAddr: 0xA350, symBinAddr: 0xD680, symSize: 0x0 }
+  - { offset: 0x6E6B3, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC5stackACvpZ', symObjAddr: 0xA360, symBinAddr: 0xD680, symSize: 0x0 }
   - { offset: 0x6E903, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC5stackACvau', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x40 }
   - { offset: 0x6E959, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC5stack_WZ', symObjAddr: 0x190, symBinAddr: 0x4190, symSize: 0x38 }
   - { offset: 0x6E99A, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC12processQueueSo17OS_dispatch_queueCvpfi', symObjAddr: 0x314, symBinAddr: 0x4314, symSize: 0x1A0 }
@@ -61,7 +61,7 @@ relocations:
   - { offset: 0x6FAC9, size: 0x8, addend: 0x0, symName: '_$s9tun2socks9TSIPStackC18didAcceptTCPSocket_5errors4Int8VSpySo7tcp_pcbVG_AGtFTf4ndn_n', symObjAddr: 0x1998, symBinAddr: 0x5978, symSize: 0xB8 }
   - { offset: 0x6FB29, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV5countACSi_tcfCTf4nd_n', symObjAddr: 0x1A50, symBinAddr: 0x5A30, symSize: 0x9C }
   - { offset: 0x6FC00, size: 0x8, addend: 0x0, symName: '_$s9tun2socks11TSTCPSocketC6recvedyySpySo4pbufVGSgF', symObjAddr: 0x0, symBinAddr: 0x5C04, symSize: 0x18C }
-  - { offset: 0x6FC24, size: 0x8, addend: 0x0, symName: '_$s9tun2socks10SocketDictV06socketC0SDySiAA11TSTCPSocketCGvpZ', symObjAddr: 0x82C0, symBinAddr: 0xD688, symSize: 0x0 }
+  - { offset: 0x6FC24, size: 0x8, addend: 0x0, symName: '_$s9tun2socks10SocketDictV06socketC0SDySiAA11TSTCPSocketCGvpZ', symObjAddr: 0x82C8, symBinAddr: 0xD688, symSize: 0x0 }
   - { offset: 0x6FE6D, size: 0x8, addend: 0x0, symName: '_$s9tun2socks13tcp_sent_func_3pcb3lens4Int8VSvSg_SpySo0b1_E0VGSgs6UInt16VtF', symObjAddr: 0x18C, symBinAddr: 0x5D90, symSize: 0xB8 }
   - { offset: 0x6FF4E, size: 0x8, addend: 0x0, symName: '_$s9tun2socks12tcp_err_func_5errorySvSg_s4Int8VtF', symObjAddr: 0x244, symBinAddr: 0x5E48, symSize: 0xC8 }
   - { offset: 0x70009, size: 0x8, addend: 0x0, symName: '_$s9tun2socks10SocketDictV06socketC0_WZ', symObjAddr: 0x448, symBinAddr: 0x604C, symSize: 0x24 }

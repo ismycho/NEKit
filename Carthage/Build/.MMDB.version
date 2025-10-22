@@ -1,11 +1,11 @@
 {
   "Mac" : [
     {
-      "name" : "MMDB",
+      "container" : "MMDB.xcframework",
       "identifier" : "macos-arm64_x86_64",
+      "hash" : "23c43817111114da4335d52d2d444ce0387976db6d176363781c94c02494f14f",
       "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
-      "hash" : "03993aec2bd7cf937d2d57e02274bd2334cd0d5e45a6e229938d45182e7514f2",
-      "container" : "MMDB.xcframework"
+      "name" : "MMDB"
     }
   ],
   "commitish" : "0.5.6"

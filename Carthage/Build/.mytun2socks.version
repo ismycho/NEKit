@@ -2,23 +2,29 @@
   "Mac" : [
     {
       "name" : "lwip",
-      "container" : "lwip.xcframework",
       "identifier" : "macos-x86_64",
-      "hash" : "9089041e6866a542464d7b700bb7d9b708ed55b08212a6b1a73b983b9e8dee51"
+      "hash" : "b538b49d49d225821fad35cb530b824ce407146b9157cc195735cce2882d68c1",
+      "container" : "lwip.xcframework"
+    },
+    {
+      "name" : "lwip",
+      "identifier" : "macos-x86_64",
+      "hash" : "b538b49d49d225821fad35cb530b824ce407146b9157cc195735cce2882d68c1",
+      "container" : "lwip.xcframework"
     },
     {
       "name" : "tun2socks",
-      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
-      "container" : "tun2socks.xcframework",
       "identifier" : "macos-x86_64",
-      "hash" : "78ddc7ce4d2d8cacd3319e18c801399d31b6bf950a3f2b024403d61c0b8cc92a"
+      "hash" : "8e85266bb770a1ed81d25973947fbc1895bffbccb2107bb0b4c6662ee8d1bae0",
+      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
+      "container" : "tun2socks.xcframework"
     },
     {
       "name" : "tun2socks",
-      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
-      "container" : "tun2socks.xcframework",
       "identifier" : "macos-x86_64",
-      "hash" : "78ddc7ce4d2d8cacd3319e18c801399d31b6bf950a3f2b024403d61c0b8cc92a"
+      "hash" : "8e85266bb770a1ed81d25973947fbc1895bffbccb2107bb0b4c6662ee8d1bae0",
+      "swiftToolchainVersion" : "6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)",
+      "container" : "tun2socks.xcframework"
     }
   ],
   "commitish" : "1.0.0"

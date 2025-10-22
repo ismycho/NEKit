@@ -109,7 +109,7 @@ relocations:
   - { offset: 0x34154, size: 0x8, addend: 0x0, symName: _sys_now, symObjAddr: 0x0, symBinAddr: 0x1CDC, symSize: 0x4C }
   - { offset: 0x341DE, size: 0x8, addend: 0x0, symName: _sys_init, symObjAddr: 0x4C, symBinAddr: 0x1D28, symSize: 0x6 }
   - { offset: 0x34236, size: 0x8, addend: 0x0, symName: _raw_input, symObjAddr: 0x0, symBinAddr: 0x1D2E, symSize: 0xAA }
-  - { offset: 0x3425E, size: 0x8, addend: 0x0, symName: _raw_pcbs, symObjAddr: 0x2C30, symBinAddr: 0xA0D8, symSize: 0x0 }
+  - { offset: 0x3425E, size: 0x8, addend: 0x0, symName: _raw_pcbs, symObjAddr: 0x2C38, symBinAddr: 0xA0D8, symSize: 0x0 }
   - { offset: 0x344B2, size: 0x8, addend: 0x0, symName: _raw_input, symObjAddr: 0x0, symBinAddr: 0x1D2E, symSize: 0xAA }
   - { offset: 0x34558, size: 0x8, addend: 0x0, symName: _raw_bind, symObjAddr: 0xAA, symBinAddr: 0x1DD8, symSize: 0x15 }
   - { offset: 0x3458F, size: 0x8, addend: 0x0, symName: _raw_connect, symObjAddr: 0xBF, symBinAddr: 0x1DED, symSize: 0x16 }
@@ -121,10 +121,10 @@ relocations:
   - { offset: 0x34A05, size: 0x8, addend: 0x0, symName: _raw_remove, symObjAddr: 0x1D0, symBinAddr: 0x1EFE, symSize: 0x4E }
   - { offset: 0x34A59, size: 0x8, addend: 0x0, symName: _raw_new, symObjAddr: 0x21E, symBinAddr: 0x1F4C, symSize: 0x4A }
   - { offset: 0x34B31, size: 0x8, addend: 0x0, symName: _netif_init, symObjAddr: 0x0, symBinAddr: 0x1F96, symSize: 0xC3 }
-  - { offset: 0x34B59, size: 0x8, addend: 0x0, symName: _netif_list, symObjAddr: 0x46B0, symBinAddr: 0xA0B0, symSize: 0x0 }
-  - { offset: 0x34D95, size: 0x8, addend: 0x0, symName: _netif_default, symObjAddr: 0x46B8, symBinAddr: 0xA0B8, symSize: 0x0 }
-  - { offset: 0x34DAB, size: 0x8, addend: 0x0, symName: _netif_num, symObjAddr: 0x46A8, symBinAddr: 0xA138, symSize: 0x0 }
-  - { offset: 0x34DC1, size: 0x8, addend: 0x0, symName: _loop_netif, symObjAddr: 0x4650, symBinAddr: 0xA0E0, symSize: 0x0 }
+  - { offset: 0x34B59, size: 0x8, addend: 0x0, symName: _netif_list, symObjAddr: 0x46B8, symBinAddr: 0xA0B0, symSize: 0x0 }
+  - { offset: 0x34D95, size: 0x8, addend: 0x0, symName: _netif_default, symObjAddr: 0x46C0, symBinAddr: 0xA0B8, symSize: 0x0 }
+  - { offset: 0x34DAB, size: 0x8, addend: 0x0, symName: _netif_num, symObjAddr: 0x46B0, symBinAddr: 0xA138, symSize: 0x0 }
+  - { offset: 0x34DC1, size: 0x8, addend: 0x0, symName: _loop_netif, symObjAddr: 0x4658, symBinAddr: 0xA0E0, symSize: 0x0 }
   - { offset: 0x34F6A, size: 0x8, addend: 0x0, symName: _netif_init, symObjAddr: 0x0, symBinAddr: 0x1F96, symSize: 0xC3 }
   - { offset: 0x3508A, size: 0x8, addend: 0x0, symName: _netif_set_ipaddr, symObjAddr: 0x1C0, symBinAddr: 0x2156, symSize: 0x7D }
   - { offset: 0x35137, size: 0x8, addend: 0x0, symName: _netif_add, symObjAddr: 0xC3, symBinAddr: 0x2059, symSize: 0xAB }
@@ -154,16 +154,16 @@ relocations:
   - { offset: 0x35D64, size: 0x8, addend: 0x0, symName: _tcp_accepted_c.cold.1, symObjAddr: 0x10, symBinAddr: 0x692C, symSize: 0x2F }
   - { offset: 0x36250, size: 0x8, addend: 0x0, symName: _memp_sizes, symObjAddr: 0x0, symBinAddr: 0x79A0, symSize: 0x0 }
   - { offset: 0x362F7, size: 0x8, addend: 0x0, symName: _tcp_input, symObjAddr: 0x0, symBinAddr: 0x241C, symSize: 0x502 }
-  - { offset: 0x3631F, size: 0x8, addend: 0x0, symName: _inseg, symObjAddr: 0x8468, symBinAddr: 0xA160, symSize: 0x0 }
-  - { offset: 0x3648C, size: 0x8, addend: 0x0, symName: _tcphdr, symObjAddr: 0x8450, symBinAddr: 0xA148, symSize: 0x0 }
-  - { offset: 0x364A2, size: 0x8, addend: 0x0, symName: _iphdr, symObjAddr: 0x8448, symBinAddr: 0xA140, symSize: 0x0 }
-  - { offset: 0x3655E, size: 0x8, addend: 0x0, symName: _seqno, symObjAddr: 0x8458, symBinAddr: 0xA150, symSize: 0x0 }
-  - { offset: 0x36574, size: 0x8, addend: 0x0, symName: _ackno, symObjAddr: 0x845C, symBinAddr: 0xA154, symSize: 0x0 }
-  - { offset: 0x3658A, size: 0x8, addend: 0x0, symName: _flags, symObjAddr: 0x8460, symBinAddr: 0xA158, symSize: 0x0 }
-  - { offset: 0x365A0, size: 0x8, addend: 0x0, symName: _tcplen, symObjAddr: 0x8462, symBinAddr: 0xA15A, symSize: 0x0 }
-  - { offset: 0x365B6, size: 0x8, addend: 0x0, symName: _recv_flags, symObjAddr: 0x8490, symBinAddr: 0xA188, symSize: 0x0 }
-  - { offset: 0x365CC, size: 0x8, addend: 0x0, symName: _recv_data, symObjAddr: 0x8488, symBinAddr: 0xA180, symSize: 0x0 }
-  - { offset: 0x365E2, size: 0x8, addend: 0x0, symName: _tcp_input_pcb, symObjAddr: 0x8498, symBinAddr: 0xA0C0, symSize: 0x0 }
+  - { offset: 0x3631F, size: 0x8, addend: 0x0, symName: _inseg, symObjAddr: 0x8470, symBinAddr: 0xA160, symSize: 0x0 }
+  - { offset: 0x3648C, size: 0x8, addend: 0x0, symName: _tcphdr, symObjAddr: 0x8458, symBinAddr: 0xA148, symSize: 0x0 }
+  - { offset: 0x364A2, size: 0x8, addend: 0x0, symName: _iphdr, symObjAddr: 0x8450, symBinAddr: 0xA140, symSize: 0x0 }
+  - { offset: 0x3655E, size: 0x8, addend: 0x0, symName: _seqno, symObjAddr: 0x8460, symBinAddr: 0xA150, symSize: 0x0 }
+  - { offset: 0x36574, size: 0x8, addend: 0x0, symName: _ackno, symObjAddr: 0x8464, symBinAddr: 0xA154, symSize: 0x0 }
+  - { offset: 0x3658A, size: 0x8, addend: 0x0, symName: _flags, symObjAddr: 0x8468, symBinAddr: 0xA158, symSize: 0x0 }
+  - { offset: 0x365A0, size: 0x8, addend: 0x0, symName: _tcplen, symObjAddr: 0x846A, symBinAddr: 0xA15A, symSize: 0x0 }
+  - { offset: 0x365B6, size: 0x8, addend: 0x0, symName: _recv_flags, symObjAddr: 0x8498, symBinAddr: 0xA188, symSize: 0x0 }
+  - { offset: 0x365CC, size: 0x8, addend: 0x0, symName: _recv_data, symObjAddr: 0x8490, symBinAddr: 0xA180, symSize: 0x0 }
+  - { offset: 0x365E2, size: 0x8, addend: 0x0, symName: _tcp_input_pcb, symObjAddr: 0x84A0, symBinAddr: 0xA0C0, symSize: 0x0 }
   - { offset: 0x36A11, size: 0x8, addend: 0x0, symName: _tcp_input, symObjAddr: 0x0, symBinAddr: 0x241C, symSize: 0x502 }
   - { offset: 0x36D10, size: 0x8, addend: 0x0, symName: _tcp_timewait_input, symObjAddr: 0x502, symBinAddr: 0x291E, symSize: 0x89 }
   - { offset: 0x36EC7, size: 0x8, addend: 0x0, symName: _tcp_listen_input, symObjAddr: 0x58B, symBinAddr: 0x29A7, symSize: 0x169 }
@@ -338,7 +338,7 @@ relocations:
   - { offset: 0x3C3FF, size: 0x8, addend: 0x0, symName: _ip_addr_any, symObjAddr: 0x384, symBinAddr: 0x79C0, symSize: 0x0 }
   - { offset: 0x3C44C, size: 0x8, addend: 0x0, symName: _ip_addr_broadcast, symObjAddr: 0x388, symBinAddr: 0x79C4, symSize: 0x0 }
   - { offset: 0x3C464, size: 0x8, addend: 0x0, symName: _ipaddr_ntoa, symObjAddr: 0x290, symBinAddr: 0x627C, symSize: 0x16 }
-  - { offset: 0x3C48C, size: 0x8, addend: 0x0, symName: _ipaddr_ntoa.str, symObjAddr: 0x25F0, symBinAddr: 0xA1A0, symSize: 0x0 }
+  - { offset: 0x3C48C, size: 0x8, addend: 0x0, symName: _ipaddr_ntoa.str, symObjAddr: 0x2600, symBinAddr: 0xA1A0, symSize: 0x0 }
   - { offset: 0x3C4ED, size: 0x8, addend: 0x0, symName: _ip4_addr_isbroadcast, symObjAddr: 0x0, symBinAddr: 0x5FEC, symSize: 0x34 }
   - { offset: 0x3C532, size: 0x8, addend: 0x0, symName: _ip4_addr_netmask_valid, symObjAddr: 0x34, symBinAddr: 0x6020, symSize: 0x3E }
   - { offset: 0x3C5A6, size: 0x8, addend: 0x0, symName: _ipaddr_addr, symObjAddr: 0x72, symBinAddr: 0x605E, symSize: 0x24 }

@@ -6,22 +6,6 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>tun2socks.framework/Versions/A/tun2socks</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
-			<key>LibraryIdentifier</key>
-			<string>macos-x86_64</string>
-			<key>LibraryPath</key>
-			<string>tun2socks.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>macos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
 			<string>tun2socks.framework/tun2socks</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
@@ -35,6 +19,22 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>tun2socks.framework/Versions/A/tun2socks</string>
+			<key>DebugSymbolsPath</key>
+			<string>dSYMs</string>
+			<key>LibraryIdentifier</key>
+			<string>macos-x86_64</string>
+			<key>LibraryPath</key>
+			<string>tun2socks.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>macos</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
